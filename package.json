@@ -4,8 +4,8 @@
   "description": "Red dice node server",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch src --exec babel-node -- src/index.js",
-    "db:migrate": "knex migrate:latest --knexfile ./src/knexfile.js",
+    "start": "nodemon --watch . --exec babel-node -- index.js",
+    "db:migrate": "knex migrate:latest --knexfile ./knexfile.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

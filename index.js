@@ -3,7 +3,7 @@ import path from 'path';
 import bodyParser from 'body-parser';
 
 // routes
-import users from './../routes/users';
+import users from './routes/users';
 
 // setup express app
 let app = express();
